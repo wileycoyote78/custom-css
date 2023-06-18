@@ -1,0 +1,53 @@
+{
+     "version": 1.1,
+     "$schema": "https://raw.githubusercontent.com/microsoft/vscode-css-languageservice/master/docs/customData.schema.json",
+     "atDirectives": [{
+          "name": "@container",
+          "description": {
+               "kind": "markdown",
+               "value":"The **@container** CSS at-rule is a conditional group rule that applies styles to a containment context."},
+          "references": [{
+               "name": "MDN reference",
+               "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@container" 
+          }],
+          "browsers": ["E105","FF110","C105","S16.0","O91"]
+          }],
+     "properties": [
+          {
+               "name": "container-type",
+               "description": {
+                    "kind": "markdown",
+                    "value": "The **container-type** CSS property is used to define the type of containment used in a container query."
+               },
+               "references": [{
+                    "name": "MDN reference",
+                    "url": "https://developer.mozilla.org/docs/Web/CSS/container-type"
+               }],
+               "browsers": ["E105","FF110","C105","S16.0","O91"]
+          },
+          {
+               "name": "container-name",
+               "description": {
+                    "kind": "markdown",
+                    "value": "The **container-name** CSS property specifies a list of query container names used by the **@container** at rule in a container query."
+               },
+               "references": [{
+                    "name": "MDN reference",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/container-name"
+               }],
+               "browsers": ["E105","FF110","C105","S16.0","O91"]
+          },
+          {
+               "name": "container",
+               "description": {
+                    "kind": "markdown",
+                    "value": "The **container** shorthand CSS property establishes the element as a query container and specifies the name or name for the containment used in a container query."
+               },
+               "references": [{
+                    "name": "MDN reference",
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/container"
+               }],
+               "browsers": ["E105","FF110","C105","S16.0","O91"]
+          }
+     ]
+}
